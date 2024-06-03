@@ -24,3 +24,23 @@ This Node.js CLI tool enables users to convert PDF files to various formats and 
    git clone https://github.com/your-username/pdf-converter-cli.git
    cd pdf-converter-cli
 
+2. To run:
+
+Install NodeJS Globally,
+
+   ```sh
+   npm install -g
+
+3. To update:
+
+Navigate to the project directory and run
+
+```sh
+chmod +x fileConverter.js
+
+4. To use the command
+
+
+
+
+
