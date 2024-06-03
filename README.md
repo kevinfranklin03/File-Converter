@@ -45,7 +45,8 @@ This Node.js CLI tool enables users to convert PDF files to various formats and 
    `file-converter`
 
    you will be asked to provide the file location and destination.
-   make sure that the path is valid. Watch out for the `/`
+   make sure that the path is valid. Watch out for the `/`.
+   Note, you can run the command from anywhere, need not to be in the project directory!
 
    
 
