@@ -39,6 +39,7 @@ This Node.js CLI tool enables users to convert PDF files to various formats and 
    Navigate to the project directory and run
 
    ```sh
+   npm i node-poppler inquirer commander
    chmod +x fileConverter.js
    ```
 
