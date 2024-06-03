@@ -16,6 +16,8 @@ This Node.js CLI tool enables users to convert PDF files to various formats and 
 - `inquirer` for interactive prompts
 - `commander` for command-line argument parsing
 
+  ```npm i node-poppler inquirer commander```
+
 ## Installation
 
 1. Clone the repository:
