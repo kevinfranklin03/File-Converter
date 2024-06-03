@@ -26,7 +26,7 @@ This Node.js CLI tool enables users to convert PDF files to various formats and 
 
 2. To run:
 
-Install NodeJS Globally,
+   Install NodeJS Globally,
 
    ```sh
    npm install -g
@@ -40,7 +40,14 @@ Install NodeJS Globally,
    chmod +x fileConverter.js
    ```
 
-4. To use the command
+4. To use the command:
+
+   `file-converter`
+
+   you will be asked to provide the file location and destination.
+   make sure that the path is valid. Watch out for the `/`
+
+   
 
 
 
