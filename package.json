@@ -1,0 +1,26 @@
+{
+  "name": "personal-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fileConverter.js",
+  "bin": {
+    "file-converter": "./fileConverter.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Franklin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "child_process": "^1.0.2",
+    "commander": "^12.1.0",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.23",
+    "node-poppler": "^7.2.0",
+    "path": "^0.12.7",
+    "util": "^0.12.5"
+  },
+
+  "type": "module"
+}
