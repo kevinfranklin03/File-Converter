@@ -60,4 +60,5 @@ $ run `file-converter`
 ? Please specify the type of file you would like to convert to: (Use arrow keys)
   pdf
   docx
- 
+
+Make sure that the file path is correct before running.
