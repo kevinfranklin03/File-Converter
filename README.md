@@ -53,7 +53,8 @@ This CLI tool allows you to convert various file formats (PDF, PNG, JPEG, JPG, D
 Here's an example of how to use the CLI tool:
 
 ```sh
-$ ./index.js
+$ cd to project directory
+$ run `file-converter`
 ? Enter the PDF file location: /path/to/your/file.pdf
 ? Enter the destination directory: /path/to/your/destination
 ? Please specify the type of file you would like to convert to: (Use arrow keys)
