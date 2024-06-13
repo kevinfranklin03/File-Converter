@@ -1,59 +1,62 @@
-# PDF Converter CLI
+# File Converter CLI
 
-This Node.js CLI tool enables users to convert PDF files to various formats and vice versa. It leverages the `node-poppler` library for PDF conversions and supports multiple file type conversions. The tool provides a simple command-line interface, guiding the user through the process of selecting the input file and destination directory.
+This CLI tool allows you to convert various file formats (PDF, PNG, JPEG, JPG, DOCX) using Node.js and the GroupDocs Conversion Cloud API. The tool provides an interactive command-line interface to specify the file location, destination directory, and desired output format. It also includes a spinner animation to indicate the progress of the conversion.
 
 ## Features
 
-- Convert PDF to PNG, JPEG, and DOC
-- Convert PNG to JPEG, PDF, and DOC
-- Convert JPEG to PNG, DOC, and PDF
-- Convert DOC to JPEG, PDF, and PNG
+- Convert files between different formats (PDF, PNG, JPEG, JPG, DOCX)
+- Interactive command-line interface for user input
+- Displays a spinner animation during the conversion process
+- Error handling for file operations and API requests
 
 ## Prerequisites
 
-- Node.js installed on your machine
-- `node-poppler` for PDF conversions
-- `inquirer` for interactive prompts
-- `commander` for command-line argument parsing
-
-  ```npm i node-poppler inquirer commander```
+- Node.js (v12 or later)
+- GroupDocs Conversion Cloud API credentials
+- npm (Node Package Manager)
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository or download the code.
+2. Navigate to the project directory.
+3. Install the required dependencies using npm:
 
-   ```sh
-   git clone https://github.com/your-username/pdf-converter-cli.git
-   cd pdf-converter-cli ```
+    ```sh
+    npm install
+    ```
 
-2. To run:
+4. Create a `.env` file in the root directory of the project and add your GroupDocs Conversion Cloud API credentials:
 
-   Install NodeJS Globally,
+    ```plaintext
+    CLIENT_ID=your_client_id
+    CLIENT_SECRET=your_client_secret
+    ```
 
-   ```sh
-   npm install -g
-   ```
+## Usage
 
-3. To update:
+1. Make the script executable (if necessary):
 
-   Navigate to the project directory and run
+    ```sh
+    chmod +x index.js
+    ```
 
-   ```sh
-   npm i node-poppler inquirer commander
-   chmod +x fileConverter.js
-   ```
+2. Run the CLI tool:
 
-4. To use the command:
+    ```sh
+    ./index.js
+    ```
 
-   `file-converter`
+3. Follow the prompts to specify the file location, destination directory, and output format.
 
-   you will be asked to provide the file location and destination.
-   make sure that the path is valid. Watch out for the `/`.
-   Note, you can run the command from anywhere, need not to be in the project directory!
+## Example
 
-   
+Here's an example of how to use the CLI tool:
 
-
-
-
-
+```sh
+$ ./index.js
+? Enter the PDF file location: /path/to/your/file.pdf
+? Enter the destination directory: /path/to/your/destination
+? Please specify the type of file you would like to convert to: (Use arrow keys)
+  pdf
+  docx
+ 
