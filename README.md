@@ -1,6 +1,6 @@
 # File Converter CLI
 
-This CLI tool allows you to convert various file formats (PDF, PNG, JPEG, JPG, DOCX) using Node.js and the GroupDocs Conversion Cloud API. The tool provides an interactive command-line interface to specify the file location, destination directory, and desired output format. It also includes a spinner animation to indicate the progress of the conversion.
+This CLI tool allows you to convert various file formats (PDF, PNG, JPEG, JPG, DOCX) using Node.js and the GroupDocs Conversion Cloud API. The tool provides an interactive command-line interface to specify the file location, destination directory, and desired output format. It also includes a spinner animation to indicate the progress of the conversion. It also uses google Cloud storage to store and read files.
 
 ## Features
 
