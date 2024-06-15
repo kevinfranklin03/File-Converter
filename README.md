@@ -62,3 +62,11 @@ $ run `file-converter`
   docx
 
 Make sure that the file path is correct before running.
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`CLIENT_ID`
+
+`CLIENT_SECRET`
